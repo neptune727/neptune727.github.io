@@ -2,8 +2,8 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>ScatterChartID1cfc613f7ba8</title>
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>ScatterChartID6b478b11f53</title>
+<meta http-equiv="content-type" content="text/html;charset=euc-kr" />
 <style type="text/css"> 
 body {
   color: #444444;
@@ -18,14 +18,14 @@ body {
 </head>
 <body>
  <!-- ScatterChart generated in R 3.2.4 by googleVis 0.5.10 package -->
-<!-- Sun May 29 00:12:12 2016 -->
+<!-- Thu Jun 02 15:28:42 2016 -->
  
  
 <!-- jsHeader -->
 <script type="text/javascript"> 
  
 // jsData 
-function gvisDataScatterChartID1cfc613f7ba8 () {
+function gvisDataScatterChartID6b478b11f53 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -94,10 +94,6 @@ var datajson =
 76.54595122 
 ],
 [
- 19904.92276,
-75.07353659 
-],
-[
  6487.019834,
 72.47073171 
 ],
@@ -114,16 +110,8 @@ var datajson =
 74.12243902 
 ],
 [
- 1807.021978,
-69.10292683 
-],
-[
  5168.599723,
 64.36080488 
-],
-[
- 306.2611547,
-49.87987805 
 ],
 [
  41427.19523,
@@ -156,10 +144,6 @@ var datajson =
 [
  6192.73744,
 73.80973171 
-],
-[
- 670.3638656,
-62.93217073 
 ],
 [
  2755.465366,
@@ -254,10 +238,6 @@ var datajson =
 54.83841463 
 ],
 [
- 1471.435965,
-57.29082927 
-],
-[
  17892.50668,
 81.28536585 
 ],
@@ -306,10 +286,6 @@ var datajson =
 69.1834878 
 ],
 [
- 38683.42455,
-82.06097561 
-],
-[
  30710.30965,
 82.05609756 
 ],
@@ -346,10 +322,6 @@ var datajson =
 67.77204878 
 ],
 [
- 2426.887248,
-65.76658537 
-],
-[
  21104.45313,
 81.70512195 
 ],
@@ -368,14 +340,6 @@ var datajson =
 [
  252.4575365,
 60.52039024 
-],
-[
- 7139.34219,
-71.65768293 
-],
-[
- 6742.883014,
-74.91270732 
 ],
 [
  2957.717406,
@@ -408,10 +372,6 @@ var datajson =
 [
  395.4805691,
 64.67390244 
-],
-[
- 5484.839907,
-76.60260976 
 ],
 [
  8055.955547,
@@ -456,10 +416,6 @@ var datajson =
 [
  4835.403244,
 64.34387805 
-],
-[
- 334.425693,
-60.82814634 
 ],
 [
  2482.486952,
@@ -522,10 +478,6 @@ var datajson =
 72.79917073 
 ],
 [
- 58226.81436,
-78.4184878 
-],
-[
  9053.077503,
 75.06341463 
 ],
@@ -542,10 +494,6 @@ var datajson =
 74.17763415 
 ],
 [
- 1548.658806,
-63.16704878 
-],
-[
  904.7516051,
 65.8787561 
 ],
@@ -554,24 +502,12 @@ var datajson =
 82.24634146 
 ],
 [
- 1154.164203,
-67.71892683 
-],
-[
  621.3100235,
 50.36312195 
 ],
 [
  3425.320735,
 72.49814634 
-],
-[
- 1487.250165,
-66.2595122 
-],
-[
- 6888.250475,
-70.99 
 ],
 [
  13966.27152,
@@ -606,14 +542,6 @@ var datajson =
 74.24692683 
 ],
 [
- 981.8828026,
-69.40017073 
-],
-[
- 3861.051899,
-72.64034146 
-],
-[
  11360.43589,
 70.30529268 
 ],
@@ -646,24 +574,8 @@ var datajson =
 78.84146341 
 ],
 [
- 1632.509005,
-68.222 
-],
-[
- 6213.657851,
-72.81087805 
-],
-[
  1441.37789,
 75.477 
-],
-[
- 2871.861419,
-71.6692439 
-],
-[
- 3554.875122,
-73.25039024 
 ],
 [
  1163.117328,
@@ -686,21 +598,28 @@ var datajson =
 55.633 
 ] 
 ];
-data.addColumn('number','data1.Income');
-data.addColumn('number','data1.lifeExp');
+data.addColumn('number','data.Income');
+data.addColumn('number','data.lifeExp');
 data.addRows(datajson);
 return(data);
 }
  
 // jsDrawChart
-function drawChartScatterChartID1cfc613f7ba8() {
-var data = gvisDataScatterChartID1cfc613f7ba8();
+function drawChartScatterChartID6b478b11f53() {
+var data = gvisDataScatterChartID6b478b11f53();
 var options = {};
 options["allowHtml"] = true;
+options["title"] = "소득과 기대수명의 상관관계";
+options["trendlines"] = "linear";
+options["pointShape"] = "star";
+options["vAxis"] = {title:'기대수명'};
+options["hAxis"] = {title:'소득'};
+options["width"] =    500;
+options["height"] =    400;
  
  
     var chart = new google.visualization.ScatterChart(
-    document.getElementById('ScatterChartID1cfc613f7ba8')
+    document.getElementById('ScatterChartID6b478b11f53')
     );
     chart.draw(data,options);
     
@@ -724,9 +643,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartScatterChartID1cfc613f7ba8);
+callbacks.push(drawChartScatterChartID6b478b11f53);
 })();
-function displayChartScatterChartID1cfc613f7ba8() {
+function displayChartScatterChartID6b478b11f53() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -750,21 +669,23 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartScatterChartID1cfc613f7ba8"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartScatterChartID6b478b11f53"></script>
  
 <!-- divChart -->
   
-<div id="ScatterChartID1cfc613f7ba8" 
-  style="width: 500; height: automatic;">
+<div id="ScatterChartID6b478b11f53" 
+  style="width: 500; height: 400;">
 </div>
- <div><span>Data: data2 &#8226; Chart ID: <a href="Chart_ScatterChartID1cfc613f7ba8.html">ScatterChartID1cfc613f7ba8</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
+ <div><span>Data: df &#8226; Chart ID: <a href="Chart_ScatterChartID6b478b11f53.html">ScatterChartID6b478b11f53</a> &#8226; <a href="https://github.com/mages/googleVis">googleVis-0.5.10</a></span><br /> 
 <!-- htmlFooter -->
 <span> 
   R version 3.2.4 Revised (2016-03-16 r70336) 
   &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://google-developers.appspot.com/chart/interactive/docs/gallery/scatterchart">Documentation and Data Policy</a>
-</span></div>
+</span></div><br>
 <div>
- <br> <p>x축은 국가별 소득 y축은 국가별 평균기대수명이다 x축이 증가하면서 y축이 증가하는 것을 볼수 있다. 즉 국가별로 소득이높을수록 평균기대수명이 높은것을 알수있다. </p>
+  <p>소득과 기대수명을 살펴보니 소득이 높을수록 기대수명이 높게 나타나는 것을 알수있었다.</p><br>
+  소득이 높으면 소득이 낮을때 보다 건강을 유지하는데 필요하는 비용을 더 많이 쓸 수 있다. <br>
+  따라서 기대수명도 높은것으로 추론할 수 있다.
 </div>
 </body>
 </html>
